@@ -1,5 +1,5 @@
 {
-    "name": "basecodeoy/pennant",
+    "name": "basecodeoy/operations",
     "description": "Manage feature flags for users and groups.",
     "license": "MIT",
     "type": "library",
@@ -15,11 +15,11 @@
             "role": "Developer"
         }
     ],
-    "homepage": "https://github.com/basecodeoy/pennant",
+    "homepage": "https://github.com/basecodeoy/operations",
     "support": {
-        "issues": "https://github.com/basecodeoy/pennant/issues",
-        "source": "https://github.com/basecodeoy/pennant",
-        "security": "https://github.com/basecodeoy/pennant/blob/main/.github/SECURITY.md"
+        "issues": "https://github.com/basecodeoy/operations/issues",
+        "source": "https://github.com/basecodeoy/operations",
+        "security": "https://github.com/basecodeoy/operations/blob/main/.github/SECURITY.md"
     },
     "require": {
         "php": "^8.3",

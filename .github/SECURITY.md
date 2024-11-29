@@ -2,13 +2,13 @@
 
 ## Supported Versions
 
-The following versions of `basecodeoy/pennant` have active support:
+The following versions of `basecodeoy/operations` have active support:
 
 - `^1.0.0`
 
 ## Unsupported Versions
 
-The following versions of `basecodeoy/pennant` have reached their end of life:
+The following versions of `basecodeoy/operations` have reached their end of life:
 
 - `<1.0.0`
 
