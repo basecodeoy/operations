@@ -1,0 +1,96 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Cannot call method in\\(\\) on iterable\\<SplFileInfo\\>\\.$#"
+			count: 1
+			path: .php-cs-fixer.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getQueue\\(\\)\\.$#"
+			count: 1
+			path: src/Console/Commands/RunOperationsCommand.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getTag\\(\\)\\.$#"
+			count: 1
+			path: src/Console/Commands/RunOperationsCommand.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:isAsync\\(\\)\\.$#"
+			count: 1
+			path: src/Console/Commands/RunOperationsCommand.php
+
+		-
+			message: "#^Dynamic call to static method BaseCodeOy\\\\Operations\\\\Models\\\\OperationBuilder\\:\\:exists\\(\\)\\.$#"
+			count: 1
+			path: src/Console/Commands/RunOperationsCommand.php
+
+		-
+			message: "#^Only booleans are allowed in &&, array\\|bool\\|string\\|null given on the left side\\.$#"
+			count: 1
+			path: src/Console/Commands/RunOperationsCommand.php
+
+		-
+			message: "#^Parameter \\#1 \\$oneTimeOperation of class BaseCodeOy\\\\Operations\\\\Jobs\\\\ProcessOperation constructor expects BaseCodeOy\\\\Operations\\\\Operations\\\\AbstractOneTimeOperation, object given\\.$#"
+			count: 1
+			path: src/Console/Commands/RunOperationsCommand.php
+
+		-
+			message: "#^Parameter \\#2 \\$subject of function preg_match expects string, string\\|false given\\.$#"
+			count: 1
+			path: src/Console/Commands/RunOperationsCommand.php
+
+		-
+			message: "#^Class BaseCodeOy\\\\Operations\\\\Database\\\\Factories\\\\OperationFactory extends generic class Illuminate\\\\Database\\\\Eloquent\\\\Factories\\\\Factory but does not specify its types\\: TModel$#"
+			count: 1
+			path: src/Database/Factories/OperationFactory.php
+
+		-
+			message: "#^Parameter \\#1 \\$operation of method BaseCodeOy\\\\Operations\\\\Jobs\\\\ProcessOperation\\:\\:markAsCompleted\\(\\) expects BaseCodeOy\\\\Operations\\\\Models\\\\Operation, Illuminate\\\\Database\\\\Eloquent\\\\Model given\\.$#"
+			count: 1
+			path: src/Jobs/ProcessOperation.php
+
+		-
+			message: "#^Parameter \\#1 \\$operation of method BaseCodeOy\\\\Operations\\\\Jobs\\\\ProcessOperation\\:\\:markAsFailed\\(\\) expects BaseCodeOy\\\\Operations\\\\Models\\\\Operation, Illuminate\\\\Database\\\\Eloquent\\\\Model given\\.$#"
+			count: 1
+			path: src/Jobs/ProcessOperation.php
+
+		-
+			message: "#^Strict comparison using \\!\\=\\= between string and null will always evaluate to true\\.$#"
+			count: 1
+			path: src/Jobs/ProcessOperation.php
+
+		-
+			message: "#^Class BaseCodeOy\\\\Operations\\\\Models\\\\Operation uses generic trait Illuminate\\\\Database\\\\Eloquent\\\\Factories\\\\HasFactory but does not specify its types\\: TFactory$#"
+			count: 1
+			path: src/Models/Operation.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Operations\\\\Models\\\\Operation\\:\\:newFactory\\(\\) return type with generic class Illuminate\\\\Database\\\\Eloquent\\\\Factories\\\\Factory does not specify its types\\: TModel$#"
+			count: 1
+			path: src/Models/Operation.php
+
+		-
+			message: "#^Class BaseCodeOy\\\\Operations\\\\Models\\\\OperationBuilder extends generic class Illuminate\\\\Database\\\\Eloquent\\\\Builder but does not specify its types\\: TModel$#"
+			count: 1
+			path: src/Models/OperationBuilder.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Operations\\\\Operations\\\\AbstractOneTimeOperation\\:\\:getTags\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Operations/AbstractOneTimeOperation.php
+
+		-
+			message: "#^Access to an undefined property Illuminate\\\\Foundation\\\\Application\\:\\:\\$config\\.$#"
+			count: 7
+			path: tests/TestCase.php
+
+		-
+			message: "#^Parameter \\#1 \\$path of method Illuminate\\\\Foundation\\\\Application\\:\\:useStoragePath\\(\\) expects string, string\\|false given\\.$#"
+			count: 1
+			path: tests/TestCase.php
+
+		-
+			message: "#^Access to an undefined property Illuminate\\\\Database\\\\Eloquent\\\\Model\\:\\:\\$status\\.$#"
+			count: 2
+			path: tests/Unit/Jobs/ProcessOperationTest.php

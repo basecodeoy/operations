@@ -1,0 +1,29 @@
+{
+    "symbol-whitelist": [
+        "array",
+        "bool",
+        "false",
+        "int",
+        "null",
+        "self",
+        "string",
+        "true",
+        "base_path",
+        "collect",
+        "dispatch",
+        "Illuminate\\Bus\\Queueable",
+        "Illuminate\\Console\\Command",
+        "Illuminate\\Console\\GeneratorCommand",
+        "Illuminate\\Contracts\\Queue\\ShouldQueue",
+        "Illuminate\\Database\\Eloquent\\Builder",
+        "Illuminate\\Database\\Eloquent\\Concerns\\HasUlids",
+        "Illuminate\\Database\\Eloquent\\Factories\\Factory",
+        "Illuminate\\Database\\Eloquent\\Factories\\HasFactory",
+        "Illuminate\\Database\\Eloquent\\Model",
+        "Illuminate\\Foundation\\Bus\\Dispatchable",
+        "Illuminate\\Queue\\InteractsWithQueue",
+        "Illuminate\\Queue\\SerializesModels",
+        "Illuminate\\Support\\Facades\\File",
+        "now"
+    ]
+}
