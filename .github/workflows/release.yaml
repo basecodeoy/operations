@@ -16,6 +16,11 @@ jobs:
         timeout-minutes: 5
 
         steps:
+            - name: "Checkout"
+              uses: "actions/checkout@v4.2.2"
+              with:
+                  token: "${{ secrets.PAT }}"
+
             - name: "Create release"
               uses: "basecodeoy/.github/actions/github/release/create@1.0.0"
               with:
