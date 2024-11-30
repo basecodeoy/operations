@@ -1,0 +1,40 @@
+<?php
+
+namespace {{ namespace }};
+
+use BaseCodeOy\Operations\Operations\AbstractOneTimeOperation;
+
+return new class extends AbstractOneTimeOperation
+{
+    /**
+     * Process the operation.
+     */
+    public function process(): void
+    {
+        //
+    }
+
+    /**
+     * Determine if the operation is being processed asynchronously.
+     */
+    public function isAsync(): bool
+    {
+        return false;
+    }
+
+    /**
+     * The queue that the job will be dispatched to.
+     */
+    public function getQueue(): string
+    {
+        return 'default';
+    }
+
+    /**
+     * A tag name, that this operation can be filtered by.
+     */
+    public function getTags(): array
+    {
+        return [];
+    }
+};
